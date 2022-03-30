@@ -1,4 +1,5 @@
 rootProject.name = 'FakerAndroid'
+
 include 'bin'
 include 'bin:FakerAndroid-gui'
 include 'bin:FakerAndroid-cli'
