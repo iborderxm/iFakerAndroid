@@ -114,6 +114,11 @@ Java_com_fakerandroid_boot_FakerApp_fakeApp(JNIEnv *env, jobject thiz, jobject a
     init_il2cpp(base);
     //fakeCpp((void *) Behaviour_get_isActiveAndEnabled, (void *)HookedBehaviour_get_isActiveAndEnabled ,reinterpret_cast<void **>(&Behaviour_get_isActiveAndEnabled));
 }
+extern "C"
+JNIEXPORT void JNICALL
+Java_com_fakerandroid_boot_FakerApp_fakeDex(JNIEnv *env, jobject thiz, jobject base) {
+    fakeDex(env,base,"dex");//dex collapse feature support
+}
 
 extern "C"
 JNIEXPORT void JNICALL
