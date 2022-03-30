@@ -14,7 +14,7 @@ A tool translate a apk file to stantard android project include so hook api and 
 - Back compilation voluntary when there is a modification of smali files(AndroidStudio project file tree model)
 - Unlimited possibilities and expansibility. You has the final say
 ### Environment
-- Java(17)
+- Java(18)
 - For Il2cpp Game Apk to generate il2cpp C++ scaffolding .Net environment needed ([Mac&Linux users handle it by yourself](https://dotnet.microsoft.com/download/dotnet/5.0)) 
 ### Usage 
 - Download [FakerAndroid.jar](https://github.com/Efaker/FakerAndroid/releases)(2022/03/30/23:48:00)
