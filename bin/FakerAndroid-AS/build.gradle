@@ -38,7 +38,7 @@ intellij {
     downloadSources false
     updateSinceUntilBuild false
     pluginName 'FakerAndroid'
-    sandboxDirectory = project.rootDir.canonicalPath + '/.sandbox'
+//    sandboxDirectory = project.rootDir.canonicalPath + '/.sandbox'
 //    publishPlugin {
 //        token = System.getenv("ORG_GRADLE_PROJECT_intellijPublishToken")
 //    }
@@ -64,4 +64,4 @@ tasks.withType(org.jetbrains.kotlin.gradle.tasks.KotlinCompile).all {
 //    }
 //}
 
-version = '1.0.32'
+version = '1.0.33'

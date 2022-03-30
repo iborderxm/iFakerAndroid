@@ -3,7 +3,7 @@ plugins {
 }
 apply plugin: 'com.github.johnrengelman.shadow'
 group 'com.faker.android'
-version '1.0.32'
+version '1.0.33'
 repositories {
     google()
 //    jcenter()
