@@ -64,4 +64,4 @@ tasks.withType(org.jetbrains.kotlin.gradle.tasks.KotlinCompile).all {
 //    }
 //}
 
-version = '1.0.33'
+version = '1.0.37'
