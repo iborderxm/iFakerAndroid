@@ -1,6 +1,5 @@
 # FakerAndroid ([FakerAndroid.jar or FakerAndroid-AS](https://github.com/Efaker/FakerAndroid/releases))
 
-
 A tool translate a apk file to stantard android project include so hook api and il2cpp c++ scaffolding when apk is a unity il2cpp game.
 ## Summary
 - Write code on a apk file elegantly.
