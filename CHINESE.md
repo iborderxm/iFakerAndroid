@@ -15,21 +15,21 @@ A tool translate apk file to common android project and support so hook and incl
 - 无限的可能性和扩展性,能干啥你说了算~
 - Dex折叠，对敏感已经存在或后续接入的代码进行隐藏规避静态分析
 ### 运行环境
-- Java
+- Java(18)
 - Il2cpp游戏ApkC++脚手架生成需要.Net环境支持（[MAC和Linux用户需要自己手动安装](https://dotnet.microsoft.com/download/dotnet/5.0)）
 ### 使用方式
-- 下载[FakerAndroid.jar](https://github.com/Efaker/FakerAndroid/releases)(2020/11/15/16:53:00)
+- 下载[FakerAndroid.jar](https://github.com/Efaker/FakerAndroid/releases)(2022/03/30/23:53:00)
 - cmd命令行 ```cd <FakerAndroid.jar平级目录>``` 
 - cmd命令行 ```java -jar FakerAndroid.jar fk <apkpath>``` (项目生成路径与apk文件平级) 或 ```java -jar FakerAndroid.jar fk <apkpath> -o <outdir>```
 - 例：```java -jar FakerAndroid.jar fk D:\apk\test.apk``` 或 ```java -jar FakerAndroid.jar fk D:\apk\test.apk -o D:\test```
 ### 或者使用方式
-- 下载[FakerAndroid-AS.zip](https://github.com/Efaker/FakerAndroid/releases)(2020/11/15/16:53:00)
+- 下载[FakerAndroid-AS.zip](https://github.com/Efaker/FakerAndroid/releases)(2022/03/30/23:53:00)
 - AS->File-Settings->Plugin->SettingIcon->InstallPlugin Plugin From Disk->重启AndroidStudio
 - AS->File->FakerAndroid->选择目标Apk文件
 
-### 生成的Android项目二次开发教程(<a href="https://www.52pojie.cn/forum.php?mod=viewthread&tid=1293297" target="_blank">图文教程</a>)
+
 ##### 1、打开项目
-- Android studio直接打开工具生成的Android项目
+- Android studio直接打开工具生成的Android项目(第一次打开项目时间比较长，耐心点进度条没挂就是正常，另外搞台高配的PC哦)
 - 保持跟目录build.gradle中依赖固定，请勿配置AndroidGradlePlugin，且项目配置NDk版本为21
 - 存在已知缺陷，res下的部分资源文件编译不过，需要手动修复一下，部分Manifest标签无法编译需要手动修复  
 （关于Res混淆手动实验了几个，如果遇到了这个问题，可以手动尝试，只要保证res/public.xml中的name对应的资源文件可以正常链路下去然后修复到可编译的程度，程序运行时一般是没有res问题，太完美的解决方案尚未完成）
@@ -55,8 +55,8 @@ A tool translate apk file to common android project and support so hook and incl
 resources.arsc decode 兼容，目前混淆某些大型 apk Res decoder有问题  
 各种不理想情况兼容
 ##### 5、遇到问题了？兄弟别走肯定能用，而且是你最佳的解决方案，咨询探讨
-- 咨询、放单、接单、定制 QQ: 1404774249
 - [问题反馈](https://github.com/Efaker/FakerAndroid/issues)
+
 ##### 6、给个star?免费的           
 
 ##### 7、兼容性

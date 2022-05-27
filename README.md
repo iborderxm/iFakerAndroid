@@ -14,15 +14,15 @@ A tool translate a apk file to stantard android project include so hook api and 
 - Back compilation voluntary when there is a modification of smali files(AndroidStudio project file tree model)
 - Unlimited possibilities and expansibility. You has the final say
 ### Environment
-- Java(17)
+- Java(18)
 - For Il2cpp Game Apk to generate il2cpp C++ scaffolding .Net environment needed ([Mac&Linux users handle it by yourself](https://dotnet.microsoft.com/download/dotnet/5.0)) 
 ### Usage 
-- Download [FakerAndroid.jar](https://github.com/Efaker/FakerAndroid/releases)(2020/11/15/16:52:00)
+- Download [FakerAndroid.jar](https://github.com/Efaker/FakerAndroid/releases)(2022/03/30/23:48:00)
 - cmd ```cd <FakerAndroid.jar base dir>``` 
 - cmd ```java -jar FakerAndroid.jar fk <apkpath>``` (project will be generated in the same dir of the orininal apk) or ```java -jar FakerAndroid.jar fk <apkpath> -o <outdir>```
 - Demo```java -jar FakerAndroid.jar fk D:\apk\test.apk``` or ```java -jar FakerAndroid.jar fk D:\apk\test.apk -o D:\test```
 ### Or Usage 
-- Download [FakerAndroid-AS.zip](https://github.com/Efaker/FakerAndroid/releases)(2020/11/15/16:52:00)
+- Download [FakerAndroid-AS.zip](https://github.com/Efaker/FakerAndroid/releases)(2022/03/30/23:48:00)
 - AS->File-Settings->Plugin->SettingIcon->InstallPlugin Plugin From Disk->Restart As
 - AS->File->FakerAndroid->Choose your apk file
 

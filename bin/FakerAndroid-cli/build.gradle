@@ -6,7 +6,6 @@ group 'com.faker.android'
 version '1.0.33'
 repositories {
     google()
-//    jcenter()
     mavenCentral()
 }
 jar {
